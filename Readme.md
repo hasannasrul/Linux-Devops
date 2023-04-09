@@ -27,3 +27,8 @@ su <username>
 chmod a+rwx
 ```
 
+### Change Hostname
+```
+hostnamectl set-hostname server1.example.com
+```
+
