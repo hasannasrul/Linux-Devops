@@ -24,8 +24,15 @@ su <username>
 
 *To give execute permission to all*
 ```
-chmod a+rwx
+chmod a+rwx <filename>
 ```
+*Don't give permission to all instead create group and user whoever requires access to a particular resource*
+
+*to list groups use*
+```groups```
+
+*change group of any particular resource*
+```chgrp <destination group> <filename>```
 
 ### Change Hostname
 ```
