@@ -28,3 +28,7 @@
 *finds file with size greater than 1M*
 
 ```find /usr -size +1M```
+
+*find dir that are newer than /etc/passwd file*
+
+```find /etc -type d -newer /etc/passwd
