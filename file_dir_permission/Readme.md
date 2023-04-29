@@ -19,3 +19,9 @@ chmod a+rwx <filename>
 
 *Change group of any particular resource*
 ```chgrp <destination group> <filename>```
+
+*Add user to any group*
+```sudo usermod -aG <group name> <username>```
+
+*example*
+```sudo usermod -aG docker ec2-user```
