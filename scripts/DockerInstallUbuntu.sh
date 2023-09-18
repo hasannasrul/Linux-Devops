@@ -1,13 +1,10 @@
 #/bin/bash
 
 # update  existing list of packages
-sudo apt update
+sudo apt-get update
 
 # install docker 
-sudo snap install docker
-
-# create docker group
-sudo groupadd docker
+sudo apt-get install docker.io
 
 # add user to docker group
 sudo usermod -aG docker ${USER}
